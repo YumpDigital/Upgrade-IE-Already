@@ -1,6 +1,6 @@
 # Upgrade IE Already!
 
-Simple, beautiful, unobtrusive JavaScript include which prompts old IE users to install Chrome.
+A simple, beautiful, unobtrusive JavaScript include which prompts old IE users to install Chrome.
 
 Script is not downloaded for other browsers, so performance is not impacted.
 
@@ -21,6 +21,12 @@ Script is not downloaded for other browsers, so performance is not impacted.
 		<![endif]-->
 
 3. You can configure the "IE 8" conditional comment to refer to any other version of IE that you prefer.
+
+## Code
+
+The JS code is in the `gh-pages` branch of this repository.
+
+See https://github.com/YumpDigital/Upgrade-IE-Already/tree/gh-pages 
 
 ## Future improvements to come
 
