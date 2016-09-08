@@ -38,6 +38,12 @@ if (!window.Cookies || Cookies.get("OldIEWarning") != "dismiss") {
 	} else if (ieVersion == 9) {
 		document.write("Your browser (Internet Explorer 9) is <strong>outdated</strong> (it's now " + yearsSince(2011,02,14) + " years old).");
 
+	} else if (ieVersion == 10) {
+		document.write("Your browser (Internet Explorer 10) is <strong>outdated</strong> (it's now " + yearsSince(2012,09,04) + " years old).");
+
+	} else if (ieVersion == 11) {
+		document.write("Your browser (Internet Explorer 11) is <strong>outdated</strong> (it's now " + yearsSince(2013,10,17) + " years old).");
+
 	}
 
 	document.write(
